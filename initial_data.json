@@ -1,0 +1,22 @@
+[
+    {
+        "model": "book_api.Book",
+        "pk": 1,
+        "fields": {
+            "title": "The Lion, the Witch, and the Wardrobe",
+            "number_of_pages": 208,
+            "publish_date": "1950-01-01",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "book_api.Book",
+        "pk": 2,
+        "fields": {
+            "title": "The Last Wish",
+            "number_of_pages": 288,
+            "publish_date": "1993-01-01",
+            "quantity": 20
+        }
+    }
+]
