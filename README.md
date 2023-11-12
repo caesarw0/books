@@ -168,7 +168,7 @@ Response:
 To update details of a specific book, make a PUT request to the following endpoint:
 
 ```bash
-PUT https://caesar-library-api.onrender.com/books/1/
+PUT https://caesar-library-api.onrender.com/books/1
 ```
 
 Include the updated data for the book in the request body.
@@ -187,7 +187,7 @@ Include the updated data for the book in the request body.
 To delete a specific book, make a DELETE request to the following endpoint:
 
 ```bash
-DELETE https://caesar-library-api.onrender.com/books/3/
+DELETE https://caesar-library-api.onrender.com/books/3
 ```
 
 Note that, the initial books with id = 1 and id = 2 is not allowed to delete.
