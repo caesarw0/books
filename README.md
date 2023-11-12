@@ -192,4 +192,4 @@ DELETE https://caesar-library-api.onrender.com/books/3/
 
 Note that, the initial books with id = 1 and id = 2 is not allowed to delete.
 
-Please refer to the [API Endpoints](#API Endpoints) section for a more detailed overview of available CRUD operations.
+Please refer to the [API Endpoints](#api-endpoints) section for a more detailed overview of available CRUD operations.
