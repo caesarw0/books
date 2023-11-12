@@ -54,7 +54,7 @@ python manage.py runserver
 
 Alternatively, you can use the provided script to run all Django commands at once:
 
-```python
+```bash
 python run_commands.py
 ```
 
@@ -64,13 +64,13 @@ This API endpoint is deployed on [render.com](https://render.com/) and is hosted
 
 The build command is:
 
-```python
+```bash
 pip install -r requirements.txt
 ```
 
 Since we are using the free-tier services, we are only allowed to write a single command for the start command. We encapsulate all the Django commands in a single Python script:
 
-```python
+```bash
 python run_commands.py
 ```
 
