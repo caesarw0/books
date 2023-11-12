@@ -38,7 +38,8 @@ class BookDetail(APIView):
     def delete(self, request, pk):
         # setting restriction on removing the initial books
         if pk == 1 or pk == 2:
-            return Response({'error': 'cannot remove the initial book with pk = 1 or pk = 2'}, status=status.HTTP_403_FORBIDDEN)
+            return Response({'error': 'cannot remove the initial book with pk = 1 or pk = 2'}, 
+                            status=status.HTTP_403_FORBIDDEN)
         else:
             book = get_object_or_404(Book, pk=pk)
             book.delete()
