@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m-0*053dt8j8s0i=$_dsr0gyn(1n8_xb!!(9#j(&p(i@opl9ng
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['caesar-library-api.onrender.com']
+ALLOWED_HOSTS = ['caesar-library-api.onrender.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
